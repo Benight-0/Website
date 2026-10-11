@@ -18,6 +18,17 @@
     h2 { margin-top: 40px; }
     a { color: #2563eb; }
     .subtitle { color: #666; }
+    .video-container {
+      aspect-ratio: 16 / 9;
+      width: 100%;
+      margin: 24px 0;
+    }
+    .video-container iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+      border-radius: 12px;
+    }
   </style>
 </head>
 <body>
@@ -27,6 +38,18 @@
   <p>
     Brrr skibidi dop dop
   </p>
+
+  <h2>A very important video</h2>
+  <div class="video-container">
+    <iframe
+      src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ"
+      title="A very important video"
+      loading="lazy"
+      referrerpolicy="strict-origin-when-cross-origin"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+      allowfullscreen>
+    </iframe>
+  </div>
 
   <h2>Projects</h2>
   <p>Coming never.</p>
